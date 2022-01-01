@@ -1,4 +1,4 @@
-
+/*** Класс Api для сетевых запросов ***/
 
 class Api {
   constructor({baseURL, headers}) {

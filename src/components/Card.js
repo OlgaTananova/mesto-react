@@ -3,10 +3,11 @@ function Card (props) {
     props.onCardClick(props.card);
   }
   return (
-    (<li className="element" onClick={handleClick}>
+    (<li className="element" >
       <img className="element__image"
+           onClick={handleClick}
            src={props.card.link}
-           alt="Фото"/>
+           alt={`Фото: ${props.card.name}`}/>
       <div className="element__description">
         <h2 className="element__caption">{props.card.name}</h2>
         <div className="element__like-section">
