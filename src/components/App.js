@@ -114,7 +114,7 @@ function App() {
                                  className="popup__form-submit-button popup__form-submit-button_type_confirm-delete-form">
                            Да
                          </button>
-                       </fieldset>}</PopupWithForm>
+                       </fieldset></PopupWithForm>
       <ImagePopup card={selectedCard} onClose={closeAllPopups}/>
 
     </div>

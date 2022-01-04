@@ -18,7 +18,7 @@ function Main(props) {
       .catch(err => {
         console.log(err);
       })
-  }, [userName, userDescription, userAvatar]);
+  }, []);
 
   useEffect(()=>{
     api.getInitialCards()
@@ -28,7 +28,7 @@ function Main(props) {
       .catch(err => {
         console.log(err);
       })
-  }, [cards]);
+  }, []);
 
   return (
     <main className="content page__content">
