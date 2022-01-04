@@ -27,6 +27,9 @@
 
 5. Файловая структура CSS фалов сделана по БЭМ.
 
+Проект на gh-pages: 
+[Mesto-React](https://olgatananova.github.io/mesto-react)
+
 TBC...
 
 Ольга Тананова
